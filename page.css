@@ -1,0 +1,81 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.gradient-bg {
+    /*background-image: linear-gradient(rgb(169, 52, 180), yellow);*/
+    height: 80vh;
+    background-image: url('https://www.adobe.com/acrobat/hub/media_10a1d64500ea0cd293a4d9864cb6bcec6fcd7ffc7.jpeg?width=1200&format=pjpg&optimize=medium');
+}
+
+.container {
+    display: flex;
+}
+
+.logo {
+    flex-grow: 1;
+    padding: 15px;
+    font-size: 26px;
+    color: white;
+}
+
+.menu {
+    flex-grow: 1;
+    text-align: right;
+    font-size: 24px;
+    color: white;
+}
+
+.menu>ul>li {
+    display: inline;
+    padding: 15px;
+}
+
+.quote {
+    /*background-color: red;*/
+    /*flex-grow: 1;*/
+    padding: 100px;
+    width: 50%;
+    font-family: "raleway", sans-serif;
+    color:white;
+}
+
+.form {
+    /*background-color: green;*/
+    width: 50%;
+    margin: 50px;
+}
+
+.content {
+    display: flex;
+}
+
+.holder {
+    background-color: white;
+    margin: 15px;
+    padding: 15px;
+    height: 400px;
+    width: 70%;
+    -webkit-box-shadow: -6px -1px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -6px -1px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -6px -1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.fore-heading {
+    font-family: "raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    font-size: 35%;
+    margin-top: 15px;
+}
+
+input,
+select {
+    width: 70%;
+    height: 30px;
+    margin: 20px 0 20px 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
